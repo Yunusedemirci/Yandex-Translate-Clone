@@ -1,0 +1,103 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" /></head>
+<body>
+
+   <div id="Container">
+    <div id="Navbar">
+        <h3 id="Logo">Yandex Translate</h3>
+        <ul id="NavbarList">
+            <li  onmouseover="" id="NavbarItem1" class="NavbarItem" ><i class="fa-solid fa-house"></i> <span id="MetinInfo">Metin</span> </li>
+            <li id="NavbarItem2" class="NavbarItem"><i class="fa-regular fa-comments"></i> <span id="OrnekInfo">Örnekler</span></li>
+            <li   id="NavbarItem3" class="NavbarItem"><i class="fa-solid fa-tv"></i> <span id="SiteInfo">Siteler</span></li>
+            <li id="NavbarItem4" class="NavbarItem"><i class="fa-regular fa-file"></i> <span id="BelgeInfo">Belgeler</span></li>
+            <li id="NavbarItem5"  class="NavbarItem"><i class="fa-regular fa-image"></i> <span id="GorselInfo">Görseller</span></li>
+        </ul>
+        <div id="UserLogo"><i class="fa-solid fa-user"></i></div>
+    </div>
+    <div id="Content">
+        <div id="ContentContainer">
+            <div id="ResNavbarItems">
+                <div class="NavbarListResContainer">
+                <ul class="NavbarListResponsive" style="color: white; margin-top: 30px; display:inline;">
+                    <li><a href="#">Metin</a></li>
+                    <li><a href="#">Örnekler</a></li>
+                    <li><a href="#">Siteler</a></li>
+                    <li><a href="#">Belgeler</a></li>
+                    <li><a href="#">Görseller</a></li>
+                </ul>
+            </div>
+                </div>
+                <div class="HeaderResCon">
+                <button id="MenuResBtn"><i class="fa-solid fa-bars"></i></button>
+                <h1 id="ResponsiveLogo" style="color: white;">Yandex Traslate</h1>
+                </div>
+            </div>
+        <div id="TranslateBtns">
+            <button id="LanguageBtn1">Türkçe</button>
+            <button id="LanguageChangeBtn"><i class="fa fa-exchange" aria-hidden="true"></i>
+            </button>
+            <button id="LanguageBtn2">İngilizce</button>
+        </div>
+
+        <div id="TextAreas">
+            <div id="EnteredWord">
+            <textarea id="TextArea1" placeholder=""></textarea>
+            <div id="CloseBtnContainer"><button id="CloseBtn">X</button></div>
+            </div>
+            <div id="TextArea1Panels">
+            <button id="VolumeBtn"> <i class="fa-solid fa-volume-high" ></i></button>
+            <button id="MicBtn"> <i class="fa-solid fa-microphone" ></i></button>
+            <button id="CopyBtn"><i class="fa-regular fa-copy"></i><span id="CopyInfo">Kopyalandı</span></button>
+        </div>
+        <div id="TranslatedWord">
+            <textarea id="TextArea2" placeholder=""></textarea>
+        </div>
+        <div id="TextArea2Panels">
+            <button id="VolumeBtn2"> <i class="fa-solid fa-volume-high" ></i></button>
+            
+          
+    </div>
+    </div>
+
+    <footer>
+        
+        <div id="FooterContainer">
+            
+            <div id="FooterOne">
+                <ul>
+                    <li>Mobil Sürüm</li>
+                    <li>Popüler Çeviriler</li>
+                    <li>Kullanıcı Sözleşmesi</li>
+                    <li>İş için</li>
+                </ul>
+            </div>
+            <div id="FooterTwo">
+                <ul>
+                    <li>Yardım</li>
+                    <li>Geliştiriciler İçin</li>
+                    <li><select name="Language" id="LanguageSelect">
+                        <option value="Türkçe">Türkçe</option>
+                        <option value="İngilizce">İngilizce</option>
+                        <option value="Rusça">Rusça</option>
+                      </select></li>  
+                </ul>
+            </div>
+            <div id="FooterThree">
+                <ul>
+                    <li>Teknik Destek</li>
+                    <li>@2011-2024 --Yandex--</li>
+                </ul>
+        </div>
+    </div>
+
+    </footer>
+  
+
+    <script src="script.js"></script>
+</body>
+</html>
